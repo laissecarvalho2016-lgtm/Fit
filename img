@@ -1,0 +1,6 @@
+landing-page-personal/
+├── index.html
+├── style.css
+└── img/
+    ├── gym-bg.jpg
+    └── personal.jpg
