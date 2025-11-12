@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>João Silva Personal Trainer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Faixa 1: Hero -->
+  <header class="hero">
+    <nav class="navbar">
+      <h1 class="logo">JS Personal</h1>
+      <ul class="menu">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#beneficios">Benefícios</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+    <div class="hero-content">
+      <h2>Transforme seu corpo e sua mente</h2>
+      <p>Treinos personalizados e resultados reais!</p>
+      <a href="#contato" class="btn">Agende sua sessão</a>
+    </div>
+  </header>
+
+  <!-- Faixa 2: Sobre -->
+  <section id="sobre" class="sobre">
+    <div class="container">
+      <img src="personal.jpg" alt="Foto do personal">
+      <div class="texto">
+        <h2>Sobre mim</h2>
+        <p>Sou João Silva, Personal Trainer com mais de 8 anos de experiência ajudando pessoas a alcançarem seus objetivos com treinos personalizados e acompanhamento motivacional.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Faixa 3: Serviços -->
+  <section id="servicos" class="servicos">
+    <h2>Serviços</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Treino Presencial</h3>
+        <p>Atendimento individual em academias ou ao ar livre.</p>
+      </div>
+      <div class="card">
+        <h3>Treino Online</h3>
+        <p>Acompanhamento via videochamada com plano personalizado.</p>
+      </div>
+      <div class="card">
+        <h3>Consultoria Fitness</h3>
+        <p>Planejamento completo de treino e hábitos saudáveis.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Faixa 4: Benefícios -->
+  <section id="beneficios" class="beneficios">
+    <h2>Por que treinar comigo?</h2>
+    <ul>
+      <li>✔ Resultados garantidos</li>
+      <li>✔ Acompanhamento constante</li>
+      <li>✔ Planos personalizados</li>
+      <li>✔ Flexibilidade de horários</li>
+    </ul>
+    <blockquote>"Em 3 meses já vi resultados incríveis! Recomendo demais!" – <b>Maria L.</b></blockquote>
+  </section>
+
+  <!-- Faixa 5: Contato -->
+  <section id="contato" class="contato">
+    <h2>Entre em Contato</h2>
+    <form>
+      <input type="text" placeholder="Seu nome" required>
+      <input type="email" placeholder="Seu e-mail" required>
+      <textarea placeholder="Sua mensagem" required></textarea>
+      <button type="submit" class="btn">Enviar</button>
+    </form>
+    <p>📞 (11) 99999-9999 | 📧 contato@jspersonal.com | 📸 @jspersonal</p>
+  </section>
+
+  <footer>
+    <p>© 2025 João Silva Personal Trainer. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
